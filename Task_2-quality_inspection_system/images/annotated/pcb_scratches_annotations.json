@@ -1,0 +1,12 @@
+{
+  "image": "pcb_scratches.png",
+  "width": 600,
+  "height": 400,
+  "defects": [
+    {
+      "type": "scratch",
+      "severity": "high",
+      "count": 4
+    }
+  ]
+}

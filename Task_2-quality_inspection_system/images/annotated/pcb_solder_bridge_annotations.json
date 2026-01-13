@@ -1,0 +1,12 @@
+{
+  "image": "pcb_solder_bridge.png",
+  "width": 600,
+  "height": 400,
+  "defects": [
+    {
+      "type": "solder_bridge",
+      "severity": "critical",
+      "count": 4
+    }
+  ]
+}

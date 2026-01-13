@@ -1,0 +1,9 @@
+{
+  "image": "images/non_defective/good_pcb_1.png",
+  "time": "2026-01-13T00:50:33.315074",
+  "has_defects": false,
+  "defect_count": 0,
+  "defects": [],
+  "quality_score": 100.0,
+  "recommendation": "PASS - looks good"
+}

@@ -1,0 +1,14 @@
+=== Evaluation Results ===
+
+mAP@0.5: 63.52%
+
+Per-class AP:
+  circle: 39.10%
+  rectangle: 65.30%
+  triangle: 83.23%
+  star: 67.43%
+  pentagon: 62.53%
+
+FPS: 802.8
+Model Size: 27.60 MB
+Total Parameters: 7,230,462

@@ -1,0 +1,154 @@
+{
+  "image": "images/defective/pcb_multiple_defects_annotated.png",
+  "time": "2026-01-13T00:50:39.460868",
+  "has_defects": true,
+  "defect_count": 9,
+  "defects": [
+    {
+      "id": 1,
+      "type": "scratch",
+      "confidence": 0.882,
+      "bbox": {
+        "x": 319,
+        "y": 254,
+        "width": 142,
+        "height": 10
+      },
+      "center_x": 390,
+      "center_y": 259,
+      "severity": "high",
+      "area": 1420,
+      "desc": "scratch found, length 132.0px"
+    },
+    {
+      "id": 2,
+      "type": "scratch",
+      "confidence": 0.825,
+      "bbox": {
+        "x": 344,
+        "y": 53,
+        "width": 85,
+        "height": 10
+      },
+      "center_x": 386,
+      "center_y": 58,
+      "severity": "medium",
+      "area": 850,
+      "desc": "scratch found, length 75.0px"
+    },
+    {
+      "id": 3,
+      "type": "scratch",
+      "confidence": 0.849,
+      "bbox": {
+        "x": 377,
+        "y": 263,
+        "width": 109,
+        "height": 10
+      },
+      "center_x": 431,
+      "center_y": 268,
+      "severity": "high",
+      "area": 1090,
+      "desc": "scratch found, length 99.0px"
+    },
+    {
+      "id": 4,
+      "type": "scratch",
+      "confidence": 0.824,
+      "bbox": {
+        "x": 348,
+        "y": 34,
+        "width": 84,
+        "height": 10
+      },
+      "center_x": 390,
+      "center_y": 39,
+      "severity": "medium",
+      "area": 840,
+      "desc": "scratch found, length 74.0px"
+    },
+    {
+      "id": 5,
+      "type": "scratch",
+      "confidence": 0.83,
+      "bbox": {
+        "x": 345,
+        "y": 60,
+        "width": 90,
+        "height": 10
+      },
+      "center_x": 390,
+      "center_y": 65,
+      "severity": "medium",
+      "area": 900,
+      "desc": "scratch found, length 80.0px"
+    },
+    {
+      "id": 6,
+      "type": "solder_bridge",
+      "confidence": 0.769,
+      "bbox": {
+        "x": 355,
+        "y": 229,
+        "width": 38,
+        "height": 72
+      },
+      "center_x": 374,
+      "center_y": 265,
+      "severity": "high",
+      "area": 2625,
+      "desc": "solder bridge maybe, ratio 1.89"
+    },
+    {
+      "id": 7,
+      "type": "solder_bridge",
+      "confidence": 0.773,
+      "bbox": {
+        "x": 474,
+        "y": 209,
+        "width": 39,
+        "height": 17
+      },
+      "center_x": 493,
+      "center_y": 217,
+      "severity": "low",
+      "area": 497,
+      "desc": "solder bridge maybe, ratio 2.29"
+    },
+    {
+      "id": 8,
+      "type": "solder_bridge",
+      "confidence": 0.801,
+      "bbox": {
+        "x": 357,
+        "y": 208,
+        "width": 112,
+        "height": 22
+      },
+      "center_x": 413,
+      "center_y": 219,
+      "severity": "medium",
+      "area": 1398,
+      "desc": "solder bridge maybe, ratio 5.09"
+    },
+    {
+      "id": 9,
+      "type": "discoloration",
+      "confidence": 0.78,
+      "bbox": {
+        "x": 404,
+        "y": 225,
+        "width": 74,
+        "height": 50
+      },
+      "center_x": 441,
+      "center_y": 250,
+      "severity": "high",
+      "area": 2983,
+      "desc": "color looks wrong, maybe damage"
+    }
+  ],
+  "quality_score": 0,
+  "recommendation": "REJECT - too many problems"
+}

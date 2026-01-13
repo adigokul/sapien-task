@@ -1,0 +1,42 @@
+{
+  "image": "images/defective/pcb_solder_bridge.png",
+  "time": "2026-01-13T00:50:40.006012",
+  "has_defects": true,
+  "defect_count": 2,
+  "defects": [
+    {
+      "id": 1,
+      "type": "solder_bridge",
+      "confidence": 0.769,
+      "bbox": {
+        "x": 349,
+        "y": 145,
+        "width": 91,
+        "height": 47
+      },
+      "center_x": 394,
+      "center_y": 168,
+      "severity": "medium",
+      "area": 1419,
+      "desc": "solder bridge maybe, ratio 1.94"
+    },
+    {
+      "id": 2,
+      "type": "solder_bridge",
+      "confidence": 0.794,
+      "bbox": {
+        "x": 136,
+        "y": 111,
+        "width": 83,
+        "height": 19
+      },
+      "center_x": 177,
+      "center_y": 120,
+      "severity": "medium",
+      "area": 1119,
+      "desc": "solder bridge maybe, ratio 4.37"
+    }
+  ],
+  "quality_score": 76.56,
+  "recommendation": "REWORK - need to fix some stuff"
+}

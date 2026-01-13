@@ -1,0 +1,90 @@
+{
+  "image": "images/defective/pcb_discoloration_annotated.png",
+  "time": "2026-01-13T00:50:39.011576",
+  "has_defects": true,
+  "defect_count": 5,
+  "defects": [
+    {
+      "id": 1,
+      "type": "scratch",
+      "confidence": 0.835,
+      "bbox": {
+        "x": 6,
+        "y": 23,
+        "width": 95,
+        "height": 10
+      },
+      "center_x": 53,
+      "center_y": 28,
+      "severity": "medium",
+      "area": 950,
+      "desc": "scratch found, length 85.0px"
+    },
+    {
+      "id": 2,
+      "type": "scratch",
+      "confidence": 0.834,
+      "bbox": {
+        "x": 7,
+        "y": 26,
+        "width": 94,
+        "height": 10
+      },
+      "center_x": 54,
+      "center_y": 31,
+      "severity": "medium",
+      "area": 940,
+      "desc": "scratch found, length 84.0px"
+    },
+    {
+      "id": 3,
+      "type": "scratch",
+      "confidence": 0.87,
+      "bbox": {
+        "x": 246,
+        "y": 186,
+        "width": 10,
+        "height": 130
+      },
+      "center_x": 251,
+      "center_y": 251,
+      "severity": "high",
+      "area": 1300,
+      "desc": "scratch found, length 120.0px"
+    },
+    {
+      "id": 4,
+      "type": "scratch",
+      "confidence": 0.822,
+      "bbox": {
+        "x": 121,
+        "y": 186,
+        "width": 10,
+        "height": 82
+      },
+      "center_x": 126,
+      "center_y": 227,
+      "severity": "medium",
+      "area": 820,
+      "desc": "scratch found, length 72.0px"
+    },
+    {
+      "id": 5,
+      "type": "discoloration",
+      "confidence": 0.842,
+      "bbox": {
+        "x": 126,
+        "y": 191,
+        "width": 126,
+        "height": 121
+      },
+      "center_x": 189,
+      "center_y": 251,
+      "severity": "critical",
+      "area": 9181,
+      "desc": "color looks wrong, maybe damage"
+    }
+  ],
+  "quality_score": 0,
+  "recommendation": "REJECT - too many problems"
+}

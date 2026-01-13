@@ -1,0 +1,58 @@
+{
+  "image": "images/defective/pcb_scratches.png",
+  "time": "2026-01-13T00:50:39.803898",
+  "has_defects": true,
+  "defect_count": 3,
+  "defects": [
+    {
+      "id": 1,
+      "type": "scratch",
+      "confidence": 0.891,
+      "bbox": {
+        "x": 155,
+        "y": 284,
+        "width": 118,
+        "height": 101
+      },
+      "center_x": 214,
+      "center_y": 334,
+      "severity": "critical",
+      "area": 11918,
+      "desc": "scratch found, length 141.2px"
+    },
+    {
+      "id": 2,
+      "type": "scratch",
+      "confidence": 0.902,
+      "bbox": {
+        "x": 125,
+        "y": 136,
+        "width": 88,
+        "height": 140
+      },
+      "center_x": 169,
+      "center_y": 206,
+      "severity": "critical",
+      "area": 12320,
+      "desc": "scratch found, length 151.6px"
+    },
+    {
+      "id": 3,
+      "type": "scratch",
+      "confidence": 0.9,
+      "bbox": {
+        "x": 129,
+        "y": 140,
+        "width": 87,
+        "height": 139
+      },
+      "center_x": 172,
+      "center_y": 209,
+      "severity": "critical",
+      "area": 12093,
+      "desc": "scratch found, length 150.2px"
+    }
+  ],
+  "quality_score": 0,
+  "recommendation": "REJECT - too many problems"
+}
